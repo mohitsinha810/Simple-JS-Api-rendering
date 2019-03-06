@@ -9,15 +9,26 @@
 }
 
 .card {
+  color: #373737;
+  background-color: #DcD0D0;
   text-align: justify;
   margin: 1rem;
-  border: 1px solid gray;
-  padding: 8px;
+  border: 1px solid #373737;
+  padding: 1rem;
+  border-radius: 1rem;
 }
-h1, .card h1{
+.card h1{
+  color: #C0B283;
   text-align: center;
-  color: tomato;
-  font-family: verdana,sans-serif;
+  ont-family: "Comic Sans MS", cursive, sans-serif;
+}
+.heading{
+  color: #373737;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+body{
+  background-color: #F4F4F4;
 }
 
 @media screen and (min-width: 600px) {

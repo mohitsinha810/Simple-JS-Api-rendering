@@ -1,7 +1,9 @@
 const app = document.getElementById('root');
 
 const heading = document.createElement('h1');
-heading.textContent = "Movie list";
+heading.textContent = "MOVIE LIST";
+heading.setAttribute('class', 'heading');
+heading.setAttribute('data-aos', 'zoom-in-u');
 
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
@@ -19,6 +21,8 @@ request.onload = function () {
     data.forEach(movie => {
       const card = document.createElement('div');
       card.setAttribute('class', 'card');
+	card.setAttribute('data-aos', 'zoom-in-up');
+
 
       const h1 = document.createElement('h1');
       h1.textContent = movie.title;
